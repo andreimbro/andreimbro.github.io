@@ -1,0 +1,384 @@
+/*
+Theme Name: Minione
+Theme URI: http://themeforest.net/user/klbtheme/portfolio
+Author: KlbTheme
+Author URI: http://themeforest.net/user/KlbTheme
+Domain Path: /languages
+Description: This WordPress theme is best for use in such business areas as corporate, many types of agencies and bureaus, portfolio showcases, landscape, building, engineering, planning, construction, design
+Version: 1.6.9
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: right-sidebar, left-sidebar,  one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: minione
+
+Theme Developer:
+http://themeforest.net/user/KlbTheme
+
+*/
+
+	/*- - - - - Contents - - - - -
+	
+	01 - Visual Composer
+	02 - General
+	03 - Contact Form
+	- - - - - - - - - - - - - -*/
+
+/* ===================================================================================
+* 
+*	01. Visual Composer
+*
+* ==================================================================================== */
+
+.vc_row{
+	margin-left:0 !important;
+	margin-right:0 !important;
+}
+
+.vc_column-inner{
+	padding: 0 !important;
+}
+
+.klb-container {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.klb-container:before, .klb-container:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* ===================================================================================
+* 
+*	02. General
+*
+* ==================================================================================== */
+.single header#headerBar,
+.blog header#headerBar,
+.page-template-default header#headerBar,
+.archive header#headerBar,
+.search header#headerBar,
+.error404 header#headerBar{
+    background: black;
+}
+
+.klberror{
+   padding:160px 0;
+}
+
+
+.textIntro {
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 44px;
+}
+
+.hi i {
+    width: 30px;
+    height: 30px;
+    margin-top: 84px;
+    animation-name: bounce;
+    animation: bounce 3s infinite;
+    transition: all 0.3s ease-in-out;
+    opacity: .7;
+	font-size: 35px;
+    color: #fff;
+
+}
+
+.hi i:hover {
+    opacity: 1;
+
+
+}
+
+.hi span {
+    display: block;
+}
+
+
+.progress:last-child{
+	margin-bottom: 0;
+}
+
+.skills{
+	margin-bottom: 90px;
+}
+
+.title-icon{
+	display: inline-block;
+}
+
+.about-iconbox .icon {
+    width: 150px;
+    height: 68px;
+	display: inline-block;
+}
+
+.clients{
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    background-color: transparent;
+	padding: 25px 0;
+}
+
+.clients:hover {
+    background-color: #ffd504;
+}
+
+.journal-line:last-child{
+	margin-bottom: 0;
+}
+
+.journal-line:nth-child(even) .journal-text {
+	float: right;
+}
+
+.journal-line:nth-child(even) .journal-image .category {
+    left: 25px;
+}
+
+.category{
+    overflow: hidden;
+}
+
+.category a{
+    visibility: hidden;
+	color: #fff;
+}
+
+.journal-line:hover .category a{
+	visibility:visible;
+}
+
+.row.journal-line {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* ===================================================================================
+* 
+*	03. Contact Form
+*
+* ==================================================================================== */
+
+
+
+.wpcf7 p{
+    margin: 20px 0px;
+}
+
+.wpcf7 p input, .wpcf7 p textarea{
+    margin: 10px 0px;	
+}
+
+.wpcf7 p textarea{
+    margin: 10px 0px;	
+    height: 150px;	
+}
+
+
+.wpcf7 .wpcf7-submit{
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    border: 0;
+    text-align: center !important;
+    background: #ffd435;
+    color: #fff;
+	margin-top: 0;
+    margin-bottom: 20px ;
+    text-decoration: none;
+    padding: 12px 36px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+a.logotext {
+    color: #fff;
+    font-size: 17px;
+}
+
+/* Sub Menu */
+
+.navbar li {
+    position: relative;
+}
+
+ul.navbar li ul.sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 55px;
+    padding: 0;
+    text-align: left;
+    background: #000;
+    width: auto;
+}
+
+ul.navbar ul.sub-menu a {
+    line-height: 40px;
+	white-space: nowrap;
+}
+
+ul.navbar li:hover>ul.sub-menu {
+    display: block;
+}
+
+ul.navbar ul.sub-menu li {
+    display: block;
+    margin-right:0;
+}
+
+ul.navbar ul.sub-menu li {
+    padding-right: 15px;
+}
+
+ul.navbar li:hover>ul.sub-menu ul.sub-menu {
+    top: 0;
+    left: 100%;
+    border-left: 1px solid;
+}
+
+
+
+.navbar ul.sub-menu li {
+    display: block;
+    margin-right: 0;
+}
+
+.input-group-btn button#searchsubmit {
+    background: #ffd504;
+    color: #fff;
+    border-color: #ffd504;
+}
+
+.input-group .form-control{
+    border-color: #ffd504;
+}
+
+.input-group .form-control:focus {
+    border-color: #ffd504;
+    box-shadow: none;
+}
+
+.input-group input.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+  font-weight:400;
+}
+.input-group input.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+.input-group input.form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+.input-group input.form-control:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+#map{
+	width:100%;
+}
+
+a {
+    color: #000000;
+}
+
+ul.page-numbers li span, ul.page-numbers li a.page-numbers {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+ul.page-numbers {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+}
+
+ul.page-numbers span.page-numbers.current, ul.page-numbers li a:hover {
+    color: #fff;
+    background-color: #ffd504;
+    border-color: #ffd504;
+}
+
+li.sticky.klb {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+code {
+    word-break: break-word;
+    white-space: normal;
+}
+
+.klb-post:before, .klb-post:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.klb-pagination {
+    clear: both;
+}
+
+.page .comment-area .klb-post {
+    padding-top: 0;
+    display: inline-block;
+}
+
+.wp-block-button {
+    margin-bottom: 15px;
+}
+
+.wp-block-cover.has-background-dim p.wp-block-cover-text {
+    color: #fff;
+}
+
+.wp-block-cover {
+    margin-bottom: 15px;
+}
+
+ul.blocks-gallery-grid {
+    padding-left: 0;
+}
+
+figure.wp-block-gallery figcaption.blocks-gallery-caption {
+    margin-bottom: 15px;
+}
+
+.klb-post .has-large-font-size {
+    font-size: 36px;
+    line-height: initial;
+}
+
+.klb-post p[style="font-size:46px"] {
+    line-height: initial;
+}
+
+.klb-post ul + figure.wp-block-gallery {
+    margin-top: 15px;
+}

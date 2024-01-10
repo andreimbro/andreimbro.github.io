@@ -8,24 +8,24 @@
 	>
 
 <channel>
-	<title>Senza categoria &#8211; Calanni Auto</title>
+	<title>Senza categoria &#8211; Portfoglio Giulia Travagliante</title>
 	<atom:link href="/category/senza-categoria/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description></description>
-	<lastBuildDate>Sun, 21 May 2023 20:20:50 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 29 Dec 2023 14:28:41 +0000</lastBuildDate>
 	<language>it-IT</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	
+	<generator>https://wordpress.org/?v=6.4.2</generator>
 	<item>
 		<title>Ciao mondo!</title>
-		<link>/2023/05/21/ciao-mondo/</link>
-					<comments>/2023/05/21/ciao-mondo/#comments</comments>
+		<link>/2023/12/29/ciao-mondo/</link>
+					<comments>/2023/12/29/ciao-mondo/#comments</comments>
 		
-		<dc:creator><![CDATA[calanni]]></dc:creator>
-		<pubDate>Sun, 21 May 2023 20:20:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 29 Dec 2023 14:28:41 +0000</pubDate>
 				<category><![CDATA[Senza categoria]]></category>
 		<guid isPermaLink="false">/?p=1</guid>
 
@@ -34,7 +34,7 @@
 <p>Ti diamo il benvenuto in WordPress. Questo è il tuo primo articolo. Modificalo o eliminalo e quindi inizia a scrivere!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2023/05/21/ciao-mondo/feed/</wfw:commentRss>
+					<wfw:commentRss>/2023/12/29/ciao-mondo/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

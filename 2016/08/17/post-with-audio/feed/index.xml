@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commenti a: Typography is important	</title>
+	<atom:link href="/2016/08/17/post-with-audio/feed/" rel="self" type="application/rss+xml" />
+	<link>/2016/08/17/post-with-audio/</link>
+	<description></description>
+	<lastBuildDate>Wed, 24 Aug 2016 19:32:28 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>
+		Di: admin		</title>
+		<link>/2016/08/17/post-with-audio/#comment-3</link>
+
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 24 Aug 2016 19:32:28 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost/mini/?p=192#comment-3</guid>
+
+					<description><![CDATA[In risposta a &lt;a href=&quot;/2016/08/17/post-with-audio/#comment-2&quot;&gt;admin&lt;/a&gt;.
+
+Immersive garden was founded by award winning Art director Dilshan Arukatti. Immersive garden is a creative team that has been passionately experiencing for over a decade new ways to bring to the world meaningful digital experiences that will touch people deep in their emotion and last in time.]]></description>
+			<content:encoded><![CDATA[<p>In risposta a <a href="/2016/08/17/post-with-audio/#comment-2">admin</a>.</p>
+<p>Immersive garden was founded by award winning Art director Dilshan Arukatti. Immersive garden is a creative team that has been passionately experiencing for over a decade new ways to bring to the world meaningful digital experiences that will touch people deep in their emotion and last in time.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Di: admin		</title>
+		<link>/2016/08/17/post-with-audio/#comment-2</link>
+
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 24 Aug 2016 19:32:08 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost/mini/?p=192#comment-2</guid>
+
+					<description><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras massa odio, facilisis tincidunt blandit semper, lacinia semper dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.]]></description>
+			<content:encoded><![CDATA[<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras massa odio, facilisis tincidunt blandit semper, lacinia semper dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
